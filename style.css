@@ -1,38 +1,53 @@
+/* General styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Lugrasimo", serif; /* Applied Lugrasimo font */
+  color: #89CFF0; /* Baby blue color */
   margin: 0;
   padding: 0;
 }
 
+/* Header styles */
 header {
   background-color: #282c34;
-  color: white;
+  color: #89CFF0; /* Baby blue for header text */
   text-align: center;
   padding: 20px;
 }
 
+/* Main content styles */
 main {
   padding: 20px;
 }
 
+/* Image styles */
 img {
   max-width: 100%;
 }
 
+/* List styles */
 ul {
   list-style-type: none;
   padding: 0;
 }
 
+/* Button styles */
 button {
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #61dafb;
   border: none;
   color: white;
+  font-family: "Lugrasimo", serif; /* Ensure the button font matches the theme */
   cursor: pointer;
 }
 
+/* Button hover styles */
 button:hover {
   background-color: #21a1f1;
+}
+
+/* Fun fact and additional messages */
+#funFact,
+#additionalMessage {
+  color: #89CFF0; /* Baby blue text for fun fact and messages */
 }
